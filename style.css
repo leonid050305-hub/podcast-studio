@@ -1165,4 +1165,20 @@ footer {
   .contact-map iframe {
     height: 260px;
   }
+}.tg-btn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background: #29a8e0;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 50px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: bold;
+  box-shadow: 0 4px 15px rgba(41,168,224,0.4);
+  z-index: 9999;
 }
+.tg-btn:hover { background: #1a96ce; }
