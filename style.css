@@ -59,11 +59,14 @@ header {
 }
 
 .logo-img {
-  height: 44px;
-  width: 44px;
+  height: 40px !important;
+  width: 40px !important;
+  max-height: 40px;
+  max-width: 40px;
   object-fit: contain;
   mix-blend-mode: screen;
   flex-shrink: 0;
+  display: block;
 }
 
 .nav-links {
