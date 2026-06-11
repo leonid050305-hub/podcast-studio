@@ -53,6 +53,17 @@ header {
   color: var(--text);
   letter-spacing: -0.5px;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-img {
+  height: 44px;
+  width: 44px;
+  object-fit: contain;
+  mix-blend-mode: screen;
+  flex-shrink: 0;
 }
 
 .nav-links {
